@@ -5,7 +5,10 @@ import Parser from "rss-parser";
  * README.MD에 작성될 페이지 텍스트
  * @type {string}
  */
-let text = `<h2 align="center"> Jaehyuk Profile👋 </h2> 
+let text = `<h2> My Profile 👋 </h2> 
+
+- 📘 Myongji UNIV. Convergence Software 
+- 🌱 I’m currently learning BackEnd 
 
 <h3 align="center"> 🔧 Tech Stack </h3> 
 
@@ -15,11 +18,14 @@ let text = `<h2 align="center"> Jaehyuk Profile👋 </h2>
   <img alt="" src= "https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white"/> 
   </br>
   <img alt="" src= "https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/> 
-  <img alt="" src= "https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white"/>
+  <img alt="" src="https://img.shields.io/badge/spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white">
+  <img alt="" src="https://img.shields.io/badge/springboot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white">
   </br>
   <img alt="" src= "https://img.shields.io/badge/MySQL-4B89DC?style=for-the-badge&logo=mysql&logoColor=white"/>
   <img alt="" src= "https://img.shields.io/badge/redis-%23DD0031.svg?&style=for-the-badge&logo=redis&logoColor=white"/>
+  </br>
   <img alt="" src= "https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white"/>
+  <img alt="" src= "https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white"/>
 </p>
 
 ## 📕 Latest Blog Posts 
