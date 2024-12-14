@@ -1,0 +1,17 @@
+{
+  "name": "study-blog",
+  "version": "1.0.0",
+  "description": "학습한 내용을 정리하는 블로그입니다.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "rss-parser": "^3.13.0"
+  }
+}

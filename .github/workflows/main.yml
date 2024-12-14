@@ -1,0 +1,39 @@
+name: Readme Update
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  schedule:
+    - cron: "0 0 * * *"
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: |
+          npm ci
+          npm install rss-parser
+
+      - name: Update README
+        run: npm start
+
+      - name: Check if there are any changes
+        id: verify_diff
+        run: |
+          git diff --quiet . || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit README
+        if: steps.verify_diff.outputs.changed == 'true'
+        run: |
+          git config --local user.email "bjh010321@naver.com"
+          git config --local user.name "BaekJaehyuk"
+          git add .
+          git commit -m "Update Blog Post"
+          git push origin main
