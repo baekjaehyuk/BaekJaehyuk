@@ -22,7 +22,7 @@ let text = `<h2> My Profile 👋 </h2>
   <img alt="" src= "https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white"/>
 </p>
 
-## 📕 Latest Blog Posts 
+## 📕 Latest 5 Blog Posts
 
 `;
 
@@ -39,7 +39,7 @@ const parser = new Parser({
     
     text += `<ul>`;
 
-    const maxItems = 10;
+    const maxItems = 5;
     const itemsToProcess = Math.min(feed.items.length, maxItems);
 
     for (let i = 0; i < itemsToProcess; i++) {
