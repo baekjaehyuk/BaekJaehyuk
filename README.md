@@ -15,6 +15,6 @@
   <img alt="" src= "https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white"/>
 </p>
 
-## 📕 Latest Blog Posts 
+## 📕 Latest 5 Blog Posts
 
-<ul><li><a href='https://maehyuk.tistory.com/5' target='_blank'>AWS Certified Solutions Architect Associate - IAM</a></li></ul>
+<ul><li><a href='https://maehyuk.tistory.com/6' target='_blank'>AWS Certified Solutions Architect Associate - EC2</a></li><li><a href='https://maehyuk.tistory.com/5' target='_blank'>AWS Certified Solutions Architect Associate - IAM</a></li></ul>
