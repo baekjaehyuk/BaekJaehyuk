@@ -17,4 +17,4 @@
 
 ## 📕 Latest 5 Blog Posts
 
-<ul><li><a href='https://maehyuk.tistory.com/6' target='_blank'>AWS Certified Solutions Architect Associate - EC2</a></li><li><a href='https://maehyuk.tistory.com/5' target='_blank'>AWS Certified Solutions Architect Associate - IAM</a></li></ul>
+<ul><li><a href='https://maehyuk.tistory.com/7' target='_blank'>AWS Certified Solutions Architect Associate - EBS</a></li><li><a href='https://maehyuk.tistory.com/6' target='_blank'>AWS Certified Solutions Architect Associate - EC2</a></li><li><a href='https://maehyuk.tistory.com/5' target='_blank'>AWS Certified Solutions Architect Associate - IAM</a></li></ul>
