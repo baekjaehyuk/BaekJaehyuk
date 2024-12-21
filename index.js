@@ -1,10 +1,7 @@
 import { writeFileSync } from 'node:fs';
 import Parser from "rss-parser";
 
-/**
- * README.MD에 작성될 페이지 텍스트
- * @type {string}
- */
+
 let text = `<h2> My Profile 👋 </h2> 
 
 - 📘 Myongji UNIV. Convergence Software 
@@ -26,7 +23,6 @@ let text = `<h2> My Profile 👋 </h2>
 
 `;
 
-// rss-parser 생성
 const parser = new Parser({
     headers: {
         Accept: 'application/rss+xml, application/xml, text/xml; q=0.1',
@@ -34,7 +30,6 @@ const parser = new Parser({
 
 (async () => {
 
-    // 피드 목록
     const feed = await parser.parseURL('https://maehyuk.tistory.com/rss'); // 본인의 블로그 주소
     
     text += `<ul>`;
@@ -52,7 +47,6 @@ const parser = new Parser({
 
     text += `</ul>`;
     
-    // README.md 파일 생성
     writeFileSync('README.md', text, 'utf8', (e) => {
         console.log(e);
     })
