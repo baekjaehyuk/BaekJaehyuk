@@ -17,4 +17,4 @@
 
 ## 📕 Latest 5 Blog Posts
 
-<ul><li><a href='https://maehyuk.tistory.com/10' target='_blank'>AWS Certified Solutions Architect Associate - ELB</a></li><li><a href='https://maehyuk.tistory.com/9' target='_blank'>AWS Certified Solutions Architect Associate - EFS</a></li><li><a href='https://maehyuk.tistory.com/8' target='_blank'>레디스(Redis)란 무엇인가?</a></li><li><a href='https://maehyuk.tistory.com/7' target='_blank'>AWS Certified Solutions Architect Associate - EBS</a></li><li><a href='https://maehyuk.tistory.com/6' target='_blank'>AWS Certified Solutions Architect Associate - EC2</a></li></ul>
+<ul><li><a href='https://maehyuk.tistory.com/10' target='_blank'>[AWS SAA-C03] ELB</a></li><li><a href='https://maehyuk.tistory.com/9' target='_blank'>[AWS SAA-C03] EFS</a></li><li><a href='https://maehyuk.tistory.com/8' target='_blank'>[DB] 레디스(Redis)란 무엇인가?</a></li><li><a href='https://maehyuk.tistory.com/7' target='_blank'>[AWS SAA-C03] EBS</a></li><li><a href='https://maehyuk.tistory.com/6' target='_blank'>[AWS SAA-C03] EC2</a></li></ul>
