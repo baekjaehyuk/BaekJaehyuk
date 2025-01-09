@@ -17,4 +17,4 @@
 
 ## 📕 Latest 5 Blog Posts
 
-<ul><li><a href='https://maehyuk.tistory.com/13' target='_blank'>[AWS SAA-C03] ASG</a></li><li><a href='https://maehyuk.tistory.com/12' target='_blank'>[Nginx] Nginx 란?</a></li><li><a href='https://maehyuk.tistory.com/11' target='_blank'>[Docker] Docker 란?</a></li><li><a href='https://maehyuk.tistory.com/10' target='_blank'>[AWS SAA-C03] ELB</a></li><li><a href='https://maehyuk.tistory.com/9' target='_blank'>[AWS SAA-C03] EFS</a></li></ul>
+<ul><li><a href='https://maehyuk.tistory.com/13' target='_blank'>[AWS] ASG 개념</a></li><li><a href='https://maehyuk.tistory.com/12' target='_blank'>[Nginx] Nginx 란?</a></li><li><a href='https://maehyuk.tistory.com/11' target='_blank'>[Docker] Docker 란?</a></li><li><a href='https://maehyuk.tistory.com/10' target='_blank'>[AWS] ELB 개념</a></li><li><a href='https://maehyuk.tistory.com/9' target='_blank'>[AWS] EFS 개념</a></li></ul>
